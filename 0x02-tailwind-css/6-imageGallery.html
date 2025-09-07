@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-4">
+    <header class="bg-blue-500 text-white p-4">
+      <h1 class="text-3xl font-bold">Grid and Flexbox Layout</h1>
+    </header>
+
+    <!-- Main content area uses a responsive grid layout -->
+    <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
+      <!-- This section combines a grid column span with a flex layout for its children -->
+      <section class="lg:col-span-2 flex gap-2">
+        <!-- Each flexbox item has a specific width, padding, and background color -->
+        <div class="w-1/2 p-4 bg-red-200 rounded-lg">Flexbox Item 1</div>
+        <div class="w-1/2 p-4 bg-red-400 rounded-lg">Flexbox Item 2</div>
+      </section>
+      <aside class="bg-green-200 p-4 rounded-lg">Sidebar</aside>
+    </main>
+
+    <!-- New section for the responsive image gallery -->
+    <section class="mt-8">
+      <h2 class="text-2xl font-bold mb-4">Responsive Image Gallery</h2>
+      <!-- Gallery container uses a responsive grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <!-- Images are responsive and have styling -->
+        <img
+          src="https://placehold.co/600x400/FFF/000?text=Image+1"
+          alt="Placeholder Image 1"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+        <img
+          src="https://placehold.co/600x400/FFF/000?text=Image+2"
+          alt="Placeholder Image 2"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+        <img
+          src="https://placehold.co/600x400/FFF/000?text=Image+3"
+          alt="Placeholder Image 3"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+        <img
+          src="https://placehold.co/600x400/FFF/000?text=Image+4"
+          alt="Placeholder Image 4"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+        <img
+          src="https://placehold.co/600x400/FFF/000?text=Image+5"
+          alt="Placeholder Image 5"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+        <img
+          src="https://placehold.co/600x400/FFF/000?text=Image+6"
+          alt="Placeholder Image 6"
+          class="w-full h-auto rounded-lg shadow-lg"
+        />
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white p-4 mt-4 text-center">
+      <p>&copy; 2024 John Doe's Blog</p>
+    </footer>
+  </body>
+</html>
