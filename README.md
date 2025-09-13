@@ -4,7 +4,7 @@
 
 This project serves as a hands-on exploration of advanced front-end development concepts, focusing on **TypeScript** and **Webpack**. It demonstrates how to set up a modern development environment, manage dependencies, and apply type-safe programming principles to a JavaScript codebase.
 
-The project is structured into various tasks, each addressing a specific skill, from basic TypeScript compilation to more complex module resolution and type declarations for JavaScript libraries.
+The project is structured into various tasks, each addressing a specific skill, from basic TypeScript compilation to more complex module resolution and type declarations for JavaScript libraries
 
 ## Getting Started
 
