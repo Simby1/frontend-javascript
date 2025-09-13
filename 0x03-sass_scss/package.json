@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "sass": "sass 0-debug_log.scss"
+    "sass": "sass 1-color_variable.scss"
 
   },
   "keywords": [],
