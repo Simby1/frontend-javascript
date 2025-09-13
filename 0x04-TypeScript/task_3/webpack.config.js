@@ -19,9 +19,6 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
-    alias: {
-      "crud.js": path.resolve(__dirname, "js/crud.js"),
-    },
   },
   devServer: {
     contentBase: "./dist",
