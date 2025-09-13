@@ -1,0 +1,32 @@
+Prerequisites
+First, I made sure to have Node.js, nvm and npm installed on my computer. I confirmed their installation by opening my terminal and typing these commands:
+
+Bash
+
+node -v
+npm -v
+
+Local Installation of SASS for my Project
+
+1. Navigating to My Project
+   I used the cd (change directory) command to get inside my project's main folder from the alx-intermediate-frontend project folder.
+
+Bash
+
+cd 0x03-sass_scss
+
+2. Initializing my Project
+   To keep track of my project's dependencies, I initialized it with npm that created a package.json file.
+
+Bash
+
+npm init -y
+
+3. Installing Sass
+   Next, I installed Sass specifically for this project. It's a development tool, so I installed it as a dev dependency.
+
+Bash
+
+npm install --save-dev sass
+
+This command installs Sass into my project's node_modules folder and adds it to the "devDependencies" list in my package.json file.
