@@ -23,10 +23,25 @@ Bash
 npm init -y
 
 3. Installing Sass
-   Next, I installed Sass specifically for this project. It's a development tool, so I installed it as a dev dependency.
+   Next, I installed Sass specifically for this project.
 
 Bash
 
-npm install --save-dev sass
+npm install sass
 
 This command installs Sass into my project's node_modules folder and adds it to the "devDependencies" list in my package.json file.
+
+4. Start Compiling
+   Now that Sass is installed, I ran the Sass compiler. I added a script to my package.json file to make it easy.
+
+JSON
+
+"scripts": {
+"sass": "sass src/styles.scss:dist/styles.css"
+}
+Then, I can run it from my terminal with:
+
+Bash
+
+npm run sass
+This command takes my Sass file (src/styles.scss) and compiles it into a regular CSS file (dist/styles.css).
