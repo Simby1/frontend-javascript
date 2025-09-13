@@ -1,8 +1,7 @@
-/// <reference path="../subjects/Teacher.ts" />
-/// <reference path="../subjects/Subject.ts" />
-/// <reference path="../subjects/Cpp.ts" />
-/// <reference path="../subjects/Java.ts" />
-/// <reference path="../subjects/React.ts" />
+import { Teacher } from "../subjects/Teacher";
+import { Cpp } from "../subjects/Cpp";
+import { Java } from "../subjects/Java";
+import { React } from "../subjects/React";
 
 const cpp = new Cpp();
 const java = new Java();
