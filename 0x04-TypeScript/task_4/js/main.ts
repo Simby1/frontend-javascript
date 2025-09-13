@@ -1,7 +1,7 @@
-import { Teacher } from "../subjects/Teacher";
-import { Cpp } from "../subjects/Cpp";
-import { Java } from "../subjects/Java";
-import { React } from "../subjects/React";
+import { Teacher } from "./subjects/Teacher";
+import { Cpp } from "./subjects/Cpp";
+import { Java } from "./subjects/Java";
+import { React } from "./subjects/React";
 
 const cpp = new Cpp();
 const java = new Java();
